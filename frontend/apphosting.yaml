@@ -1,6 +1,7 @@
 # apphosting.yaml
 # Settings for Firebase App Hosting native Next.js deployment
 # See: https://firebase.google.com/docs/app-hosting/configure
+# Trigger build deployment after enabling Cloud Build API
 
 runConfig:
   minInstances: 0
