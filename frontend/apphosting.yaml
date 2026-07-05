@@ -1,0 +1,18 @@
+# apphosting.yaml
+# Settings for Firebase App Hosting native Next.js deployment
+# See: https://firebase.google.com/docs/app-hosting/configure
+
+runConfig:
+  minInstances: 0
+  maxInstances: 3
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
+
+# Environment variables setup
+# GEMINI_API_KEY should be bound to a Secret Manager secret in the Firebase Console
+env:
+  - name: GEMINI_API_KEY
+    secret: GEMINI_API_KEY
+  - name: AGENT_ENDPOINT_URL
+    value: https://coursecraft-agent-806997877362.us-central1.run.app

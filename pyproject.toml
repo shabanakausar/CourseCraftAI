@@ -3,9 +3,14 @@ name = "coursecraftai"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
+    "a2a-sdk[http-server]==0.3.22",
+    "google-adk>=2.2.0",
+    "google-cloud-logging>=3.16.0",
+    "google-genai>=2.10.0",
     "pre-commit>=4.6.0",
     "pre-commit-hooks>=6.0.0",
+    "pytest>=9.1.1",
     "semgrep>=1.168.0",
 ]
