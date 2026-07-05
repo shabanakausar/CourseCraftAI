@@ -13,7 +13,7 @@ runConfig:
 # Environment variables setup
 # GEMINI_API_KEY should be bound to a Secret Manager secret in the Firebase Console
 env:
-  - name: GEMINI_API_KEY
+  - variable: GEMINI_API_KEY
     secret: GEMINI_API_KEY
-  - name: AGENT_ENDPOINT_URL
+  - variable: AGENT_ENDPOINT_URL
     value: https://coursecraft-agent-806997877362.us-central1.run.app
