@@ -16,4 +16,4 @@ env:
   - variable: GEMINI_API_KEY
     secret: GEMINI_API_KEY
   - variable: AGENT_ENDPOINT_URL
-    value: https://coursecraft-agent-806997877362.us-central1.run.app
+    value: https://coursecraft-agent-655135715510.us-central1.run.app
